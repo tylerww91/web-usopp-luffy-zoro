@@ -19,6 +19,7 @@
         <!-- css -->
         <link rel="stylesheet" href="styles/reset.css" />
         <link rel="stylesheet" href="styles/global.css" />
+        <link rel="stylesheet" href="styles/game.css" />
         <!-- add link for page specific css -->
     </head>
 
@@ -39,12 +40,38 @@
                     </tr>
                 </table>
             </section>
-            <section id="fighter-choice">
-                <img src="" alt="" id="" />
+            <section id="fighter-choice" class="fighter-select">
+                <img
+                    src="/assets/the-three-amigos.png"
+                    alt="Luffy, Usopp, and Zoro"
+                    id="placeholder-img"
+                    height="200px"
+                />
+                <img
+                    src="/assets/luffy.jpg"
+                    alt="Luffy"
+                    id="luffy-img"
+                    class="images"
+                    height="100px"
+                />
+                <img
+                    src="/assets/usopp.jpg"
+                    alt="Usopp"
+                    id="usopp-img"
+                    class="images"
+                    height="100px"
+                />
+                <img
+                    src="/assets/zoro.jpg"
+                    alt="Zoro"
+                    id="zoro-img"
+                    class="images"
+                    height="100px"
+                />
                 <div class="selections">
-                    <button id="Usopp">Usopp</button>
-                    <button id="Luffy">Luffy</button>
-                    <button id="Zoro">Zoro</button>
+                    <button id="usopp" class="selection">Usopp</button>
+                    <button id="luffy" class="selection">Luffy</button>
+                    <button id="zoro" class="selection">Zoro</button>
                 </div>
             </section>
             <section id="results">results</section>

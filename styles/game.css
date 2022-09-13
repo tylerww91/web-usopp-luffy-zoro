@@ -1,0 +1,18 @@
+.fighter-select {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border: 1px black solid;
+}
+
+#luffy-img {
+    border-radius: 10%;
+}
+
+#usopp-img {
+    border-radius: 40%;
+}
+
+.images {
+    position: relative;
+}
