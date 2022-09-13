@@ -16,3 +16,7 @@
 .images {
     position: relative;
 }
+
+.hidden {
+    display: none;
+}
