@@ -20,3 +20,10 @@
 .hidden {
     display: none;
 }
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    max-width: fit-content;
+}
