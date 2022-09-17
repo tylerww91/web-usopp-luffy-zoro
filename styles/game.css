@@ -1,8 +1,16 @@
+#app-container {
+    display: grid;
+    grid-template-columns: 1fr 150px 1fr;
+    height: 500px;
+    background-color: aquamarine;
+}
+
 .fighter-select {
-    background-color: aqua;
-    height: 200px;
-    width: 200px;
-    border: 1px black solid;
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: rgb(78, 43, 173);
+    justify-items: center;
+    align-items: center;
 }
 
 #luffy-img {
@@ -22,8 +30,47 @@
 }
 
 #scoreboard {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr;
     border: 1px solid black;
     max-width: fit-content;
+    margin-left: 635px;
+    margin-bottom: 20px;
+}
+
+.selections {
+    margin-bottom: 80px;
+    margin-top: -100px;
+}
+
+#placeholder-img {
+    display: grid;
+}
+
+#results {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+#play-again-button {
+    height: 20px;
+    width: 80px;
+    margin-top: 120px;
+}
+
+#vs {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+#opponent {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: darkgoldenrod;
+}
+
+#opp-img {
+    margin-bottom: 12px;
 }

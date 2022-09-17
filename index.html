@@ -46,43 +46,29 @@
                     </tr>
                 </table>
             </section>
-            <section id="fighter-choice" class="fighter-select">
-                <img
-                    src="/assets/the-three-amigos.png"
-                    alt="Luffy, Usopp, and Zoro"
-                    id="placeholder-img"
-                    height="200px"
-                />
-                <img
-                    src="/assets/luffy.jpg"
-                    alt="Luffy"
-                    id="luffy-img"
-                    class="images"
-                    height="100px"
-                />
-                <img
-                    src="/assets/usopp.jpg"
-                    alt="Usopp"
-                    id="usopp-img"
-                    class="images"
-                    height="100px"
-                />
-                <img
-                    src="/assets/zoro.jpg"
-                    alt="Zoro"
-                    id="zoro-img"
-                    class="images"
-                    height="100px"
-                />
-                <div class="selections">
-                    <button id="usopp-button" class="selection">Usopp</button>
-                    <button id="luffy-button" class="selection">Luffy</button>
-                    <button id="zoro-button" class="selection">Zoro</button>
+            <div id="app-container">
+                <section id="fighter-choice" class="fighter-select">
+                    <img src="/assets/the-three-amigos.png" alt="three men" height="200px" />
+                    <div class="selections">
+                        <button id="usopp-button" class="selection">Usopp</button>
+                        <button id="luffy-button" class="selection">Luffy</button>
+                        <button id="zoro-button" class="selection">Zoro</button>
+                    </div>
+                </section>
+                <section id="results">
+                    <p></p>
+                    <h1 id="vs">vs</h1>
+                    <button id="play-again-button">Play again!</button>
+                </section>
+                <div id="opponent">
+                    <img
+                        src="/assets/the-three-amigos.png"
+                        alt="three men"
+                        id="opp-img"
+                        height="200px"
+                    />
                 </div>
-            </section>
-            <section id="results">
-                <button id="play-again-button">Play again!</button>
-            </section>
+            </div>
         </main>
     </body>
 </html>
