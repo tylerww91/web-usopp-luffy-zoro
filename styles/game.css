@@ -34,7 +34,7 @@
     grid-template-rows: 1fr;
     border: 1px solid black;
     max-width: fit-content;
-    margin-left: 635px;
+    margin-left: 565px;
     margin-bottom: 20px;
 }
 
@@ -79,4 +79,10 @@
 
 .hidden {
     display: none;
+}
+
+td {
+    border: 2px solid black;
+    text-align: center;
+    width: 70px;
 }
