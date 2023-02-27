@@ -1,39 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Web App</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <link rel="stylesheet" href="styles/game.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <img src="assets/html_css_js.png" />
+            <h1>Usopp, Luffy, Zoro</h1>
+        </header>
 
-</head>
-
-<body>
-    <header>
-        <img src="assets/html_css_js.png">
-        <h1>Web App</h1>
-    </header>
-
-    <main>
-
-    </main>
-
-</body>
-
+        <main>
+            <section id="scoreboard">
+                <table>
+                    <tr>
+                        <td>wins</td>
+                        <td>losses</td>
+                        <td>draws</td>
+                        <td>total</td>
+                    </tr>
+                    <tr>
+                        <td id="wins-display"></td>
+                        <td id="loss-display"></td>
+                        <td id="draws-display"></td>
+                        <td id="totals-display"></td>
+                    </tr>
+                </table>
+            </section>
+            <div id="app-container">
+                <section id="fighter-choice" class="fighter-select">
+                    <img
+                        src="/assets/the-three-amigos.png"
+                        id="user-img"
+                        alt="three men"
+                        height="200px"
+                    />
+                    <div class="selections">
+                        <button id="usopp-button" class="selection">Usopp</button>
+                        <button id="luffy-button" class="selection">Luffy</button>
+                        <button id="zoro-button" class="selection">Zoro</button>
+                    </div>
+                </section>
+                <section id="results">
+                    <p></p>
+                    <h2 id="vs">vs</h2>
+                    <button id="play-again-button">Play again!</button>
+                </section>
+                <div id="opponent">
+                    <img
+                        src="/assets/the-three-amigos.png"
+                        alt="three men"
+                        id="opp-img"
+                        height="200px"
+                    />
+                </div>
+            </div>
+            <button id="play-again-button">Play again!</button>
+        </main>
+    </body>
 </html>

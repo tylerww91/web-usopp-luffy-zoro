@@ -1,0 +1,88 @@
+#app-container {
+    display: grid;
+    grid-template-columns: 1fr 180px 1fr;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.fighter-select {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: rgb(78, 43, 173);
+    justify-items: center;
+    align-items: center;
+}
+
+#luffy-img {
+    border-radius: 10%;
+}
+
+#usopp-img {
+    border-radius: 40%;
+}
+
+.images {
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+#scoreboard {
+    display: grid;
+    grid-template-rows: 1fr;
+    border: 1px solid black;
+    max-width: fit-content;
+    margin-left: 565px;
+    margin-bottom: 20px;
+}
+
+.selections {
+    margin-bottom: 80px;
+    margin-top: -100px;
+}
+
+#placeholder-img {
+    display: grid;
+}
+
+#results {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+#play-again-button {
+    height: 20px;
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 120px;
+    position: fixed;
+}
+
+#vs {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+#opponent {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: darkgoldenrod;
+}
+
+#opp-img {
+    margin-bottom: 12px;
+}
+
+.hidden {
+    display: none;
+}
+
+td {
+    border: 2px solid black;
+    text-align: center;
+    width: 70px;
+}
