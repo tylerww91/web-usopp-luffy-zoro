@@ -22,7 +22,6 @@ function getRandomNumber(choices) {
 function getRandomItem(fighterArray) {
     const random = getRandomNumber(fighterArray.length);
     const item = fighterArray[random];
-    console.log('here i am', item); //this will need to be removed
     return item;
 }
 
